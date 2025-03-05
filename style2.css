@@ -148,6 +148,8 @@ main {
     grid-template-rows: auto;
     gap: 20px;
     padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .film-card {
@@ -170,15 +172,21 @@ main {
     border-radius: 5px;
 }
 
-.film-card h3 {
+.gridtext1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #d7d5d5;
     font-size: 25px;
-    margin-top: 10px;
+    margin: 10px 0;
 }
 
-.film-card p {
+.gridtext2 {
+    text-align: center;
+    color: #d7d5d5;
     font-size: 20px;
-    margin-top: 5px;
+    margin: 5px 0;
 }
+
 
 footer {
     margin-top: 20px;
@@ -271,6 +279,6 @@ footer {
     }
 
     .grid-container {
-        grid-template-columns: 1fr; /* Одна колонка на маленьких экранах */
+        grid-template-columns: 1fr;
     }
 }
